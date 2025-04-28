@@ -1,7 +1,57 @@
-body{
-    background-color: #2de38c
+body {
+    background-color: #2de38c;
+    font-family: Arial, Helvetica, sans-serif
 }
-img, video{
+img,
+video {
     max-width: 100%;
     height: auto;
+}
+/*header styles*/
+header {
+    background-color: rgb(212, 120, 56);
+}
+a {
+    color: rgb(31, 102, 158);
+}
+a:hover {
+    color: #bd2323;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+/*text styles*/
+html{
+  font-size: 25px;
+}
+div{
+    font-size: 2rem;
+}
+
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1rem;
+}
+/*align*/
+p{
+  text-align: left;
+}
+div{
+    text-align: center;
+}
+h1{
+  text-align: center;
+}
+/*navigation*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
 }
